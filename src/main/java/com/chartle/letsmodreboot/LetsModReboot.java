@@ -1,5 +1,6 @@
 package com.chartle.letsmodreboot;
 
+import com.chartle.letsmodreboot.configs.ConfigurationHandler;
 import com.chartle.letsmodreboot.proxy.IProxy;
 import com.chartle.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -15,13 +16,13 @@ public class LetsModReboot
     @Mod.Instance(Reference.MOD_ID)
     public static LetsModReboot instance;
 
-    @SidedProxy(clientSide = "com.chartle.letsmodreboot.proxy.ClientProxy", serverSide = "com.chartle.letsmodreboot.proxy.ServerProxy")
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler
