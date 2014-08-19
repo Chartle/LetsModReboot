@@ -1,36 +1,40 @@
-[23:51:19] [main/INFO]: Setting user: ForgeDevName
-[23:51:20] [Client thread/INFO]: LWJGL Version: 2.9.0
-[23:51:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
-[23:51:27] [Sound Library Loader/INFO]: Sound engine started
-[23:51:28] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[23:51:28] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[23:51:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
-[23:51:28] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[23:51:28] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[23:51:29] [Sound Library Loader/INFO]: Sound engine started
-[23:51:30] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[23:56:09] [Client thread/INFO]: Stopping!
-evName
-[23:53:39] [Client thread/INFO]: LWJGL Version: 2.9.0
-[23:53:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
-[23:53:46] [Sound Library Loader/INFO]: Sound engine started
-[23:53:47] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[23:53:47] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[23:53:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
-[23:53:47] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[23:53:47] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[23:53:48] [Sound Library Loader/INFO]: Sound engine started
-[23:53:49] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[23:56:11] [Client thread/INFO]: Stopping!
-evName
-[23:54:47] [Client thread/INFO]: LWJGL Version: 2.9.0
-[23:54:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
-[23:54:55] [Sound Library Loader/INFO]: Sound engine started
-[23:54:56] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[23:54:56] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[23:54:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
-[23:54:56] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[23:54:56] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[23:54:57] [Sound Library Loader/INFO]: Sound engine started
-[23:54:58] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[23:55:33] [Client thread/INFO]: Stopping!
+[00:16:10] [main/INFO]: Setting user: ForgeDevName
+[00:16:11] [Client thread/INFO]: LWJGL Version: 2.9.1
+[00:16:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
+[00:16:20] [Sound Library Loader/INFO]: Sound engine started
+[00:16:21] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:16:21] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:16:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
+[00:16:21] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:16:21] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:16:22] [Sound Library Loader/INFO]: Sound engine started
+[00:16:39] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[00:16:39] [Server thread/INFO]: Generating keypair
+[00:16:40] [Server thread/INFO]: Preparing start region for level 0
+[00:16:41] [Server thread/INFO]: Preparing spawn area: 89%
+[00:16:41] [Server thread/INFO]: Changing view distance to 12, from 10
+[00:16:41] [Server thread/INFO]: ForgeDevName[local:E:7de4a14c] logged in with entity id 257 at (226.4862580136668, 64.0, 255.02406598343867)
+[00:16:41] [Server thread/INFO]: ForgeDevName joined the game
+[00:16:48] [Client thread/INFO]: Warning: Clientside chunk ticking took 277 ms
+[00:16:57] [Server thread/INFO]: [ForgeDevName: Set own game mode to Survival Mode]
+[00:16:57] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[00:16:59] [Client thread/INFO]: Warning: Clientside chunk ticking took 116 ms
+[00:17:01] [Server thread/INFO]: [ForgeDevName: Set own game mode to Creative Mode]
+[00:17:01] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[00:17:05] [Client thread/INFO]: Warning: Clientside chunk ticking took 147 ms
+[00:17:05] [Client thread/INFO]: Warning: Clientside chunk ticking took 172 ms
+[00:17:15] [Server thread/INFO]: [ForgeDevName: Set own game mode to Survival Mode]
+[00:17:15] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[00:17:19] [Server thread/INFO]: ForgeDevName has just earned the achievement [Taking Inventory]
+[00:17:19] [Client thread/INFO]: [CHAT] ForgeDevName has just earned the achievement [Taking Inventory]
+[00:17:29] [Server thread/INFO]: Saving and pausing game...
+[00:17:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:17:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:17:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:17:30] [Server thread/INFO]: Stopping server
+[00:17:30] [Server thread/INFO]: Saving players
+[00:17:30] [Server thread/INFO]: Saving worlds
+[00:17:30] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:17:30] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:17:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:17:32] [Client thread/INFO]: Stopping!
