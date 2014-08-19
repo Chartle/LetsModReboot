@@ -1,6 +1,7 @@
 package com.chartle.letsmodreboot;
 
 import com.chartle.letsmodreboot.handler.ConfigurationHandler;
+import com.chartle.letsmodreboot.init.ModItems;
 import com.chartle.letsmodreboot.proxy.IProxy;
 import com.chartle.letsmodreboot.reference.Reference;
 import com.chartle.letsmodreboot.util.LogHelper;
@@ -25,6 +26,9 @@ public class LetsModReboot
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        ModItems.init();
+
         LogHelper.info("Pre Initialization Complete!");
     }
 
