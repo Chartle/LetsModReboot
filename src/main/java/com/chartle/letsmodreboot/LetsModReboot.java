@@ -1,8 +1,10 @@
 package com.chartle.letsmodreboot;
 
+import com.chartle.letsmodreboot.client.handler.KeyInputEventHandler;
 import com.chartle.letsmodreboot.handler.ConfigurationHandler;
 import com.chartle.letsmodreboot.init.ModBlocks;
 import com.chartle.letsmodreboot.init.ModItems;
+import com.chartle.letsmodreboot.init.Recipes;
 import com.chartle.letsmodreboot.proxy.IProxy;
 import com.chartle.letsmodreboot.reference.Reference;
 import com.chartle.letsmodreboot.util.LogHelper;
@@ -27,17 +29,22 @@ public class LetsModReboot
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        LogHelper.info("Pre Initialization Complete!");
+
+
+        proxy.registerKeyBindings();
 
         ModItems.init();
-        ModBlocks.init();
 
         ModBlocks.init();
+
+        LogHelper.info("Pre Initialization Complete!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+        Recipes.init();
         LogHelper.info("Initialization Complete!");
     }
 

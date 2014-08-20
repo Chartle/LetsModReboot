@@ -5,5 +5,5 @@ package com.chartle.letsmodreboot.proxy;
  */
 public interface IProxy
 {
-
+    public abstract void registerKeyBindings();
 }

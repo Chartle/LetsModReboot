@@ -1,2 +1,15 @@
+# Keys
+keys.letsmodreboot.category=Let's Mod Reboot
+keys.letsmodreboot.charge=Charge
+keys.letsmodreboot.release=Release
+
+# Creative Tabs
+itemGroup.letsmodreboot=Let's Mod Reboot
+
+# Items
 item.letsmodreboot:mapleLeaf.name=Maple Leaf of Awesomeness
+item.letsmodreboot:stroopwafel.name=Stroopwafel of Awesomeness
+
+# Blocks
 tile.letsmodreboot:flag.name=Dutch Flag of Awesomeness
+

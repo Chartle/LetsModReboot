@@ -1,7 +1,5 @@
 package com.chartle.letsmodreboot.item;
 
-import com.chartle.letsmodreboot.creativetab.CreativeTabLMRB;
-
 /**
  * Created by Hilko on 8/20/2014.
  */
