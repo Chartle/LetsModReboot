@@ -1,6 +1,7 @@
 package com.chartle.letsmodreboot;
 
 import com.chartle.letsmodreboot.handler.ConfigurationHandler;
+import com.chartle.letsmodreboot.init.ModBlocks;
 import com.chartle.letsmodreboot.init.ModItems;
 import com.chartle.letsmodreboot.proxy.IProxy;
 import com.chartle.letsmodreboot.reference.Reference;
@@ -28,6 +29,7 @@ public class LetsModReboot
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
+        ModBlocks.init();
 
         LogHelper.info("Pre Initialization Complete!");
     }

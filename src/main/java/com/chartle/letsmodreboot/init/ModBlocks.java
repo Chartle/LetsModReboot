@@ -1,7 +1,7 @@
 package com.chartle.letsmodreboot.init;
 
-import com.chartle.letsmodreboot.item.ItemLMRB;
-import com.chartle.letsmodreboot.item.ItemMapleLeaf;
+import com.chartle.letsmodreboot.block.BlockFlag;
+import com.chartle.letsmodreboot.block.BlockLMRB;
 import com.chartle.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -10,13 +10,12 @@ import cpw.mods.fml.common.registry.GameRegistry;
  */
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
-public class ModItems
+public class ModBlocks
 {
-    public static final ItemLMRB mapleLeaf = new ItemMapleLeaf();
+    public static final BlockLMRB flag = new BlockFlag();
 
     public static void init()
     {
-        GameRegistry.registerItem(mapleLeaf, "mapleLeaf");
+        GameRegistry.registerBlock(flag, "flag");
     }
-
 }
